@@ -1,0 +1,12 @@
+com\kce\entity\Shift.class
+com\kce\util\ValidationException.class
+com\kce\dao\AssignmentDAO.class
+com\kce\dao\VolunteerDAO.class
+com\kce\util\OverlappingShiftAssignmentException.class
+com\kce\entity\Volunteer.class
+com\kce\service\EventService.class
+com\kce\dao\ShiftDAO.class
+com\kce\entity\Assignment.class
+com\kce\util\ActiveAssignmentsExistException.class
+com\kce\util\HibernateUtil.class
+com\kce\app\Main.class

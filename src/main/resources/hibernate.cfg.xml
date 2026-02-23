@@ -1,0 +1,18 @@
+<hibernate-configuration>
+ <session-factory>
+
+  <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+  <property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+  <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>
+  <property name="hibernate.connection.username">vaishu</property>
+  <property name="hibernate.connection.password">system</property>
+
+  <property name="hibernate.show_sql">true</property>
+  <property name="hibernate.hbm2ddl.auto">update</property>
+
+  <mapping class="com.kce.entity.Volunteer"/>
+  <mapping class="com.kce.entity.Shift"/>
+  <mapping class="com.kce.entity.Assignment"/>
+
+ </session-factory>
+</hibernate-configuration>
